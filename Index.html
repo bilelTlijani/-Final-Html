@@ -1,455 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
- 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Education4Life</title>
     <link rel="stylesheet" href="style.css">
-    <title>Anime4Life</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
- 
 <body>
-    <!-- Navbar section -->
-    <navbar id="Navbar">
-        <img src="./logo.png" alt="" id="logo">
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">About</a> </li>
- 
-            <div id="categories">
-                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
-                <div id="drop-down-box">
-                    <a href="#">Shonen</a>
-                    <a href="#">Shojo</a>
-                    <a href="#">Seinen</a>
-                    <a href="#">Josei</a>
-                    <a href="#">Kodomomuke</a>
-                </div>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="./logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                </ul>
             </div>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div id="other-opt">
-            <div class="search">
-                <input type="search" name="search" id="search" placeholder="Search...">
-                <i class="fas fa-search"></i>
-            </div>
-            <button id="signIn">Sign in</button>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>In terms of campus area, the Berry College, an American private, liberal arts college in Mount Berry on the northern-most boundary of Rome, Goergia is arguably the latgest university in the world. It has approximately 2,100 students on 28,000 acres of north Goergia hill country.Farhan </p>
+
+            <a href="" class="hi-btn">Visit Us To Know More</a>
+
         </div>
-        <img src="./menu.png" alt="Menu Png" id="Menu-Btn">
-    </navbar>
- 
-    <nav id="Other-Navbar">
-        <ul>
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">About</a> </li>
- 
-            <div id="categories">
-                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
-                <div id="drop-down-box">
-                    <a href="#">Shonen</a>
-                    <a href="#">Shojo</a>
-                    <a href="#">Seinen</a>
-                    <a href="#">Josei</a>
-                    <a href="#">Kodomomuke</a>
-                </div>
+    </section>
+
+
+    <section class="course">
+        <h1>Course  We Offer</h1>
+        <p>Explore the intersection of technology and society. Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today’s most pressing local, national and global issues.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+
             </div>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="Othersearch" style="margin: auto;">
-            <input type="search" name="search" id="Othersearch" placeholder="Search...">
-            <i class="fas fa-search"></i>
-        </div>
-    </nav>
- <!-- Navbar section -->
- 
- 
-<!-- Slide section -->
-    <div class="slides-box">
- 
-        <div class="slider">
-            <div class="slides">
-                <div class="slide first" id="first">
-                    <!-- <img src="./AOT banner.jpg" alt=""> -->
-                </div>
-                <div class="slide second">
-                    <!-- <img src="./fate long banner.png" alt=""> -->
-                </div>
-                <div class="slide third">
-                    <!-- <img src="./yourname banner.jpg" alt=""> -->
-                </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
             </div>
         </div>
-    </div>
- 
-    </div>
-<!-- Slide section -->
- 
- 
-    <!-- ALL SHOWS  -->
-    <div id="AllBanners">
-        <div id="primaryMainContainer">
- 
-            <div id="contentBanners">
-                <!-- For Trending Now  -->
-                    <div id="MainContainer">
-                            <div id="Heading-box">
-                                <div class="heading">Trending Now</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                           </div>
- 
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./fate.jpg" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Fate Stay Night:Unlimited blade works
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./future diary.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Future diary
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./DAB.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Date a bullet
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./erased.jpeg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Erased
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./MHA.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        My Hero Acadmia
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./death note.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Death Note
-                                    </div>
-                                </div>
-                            </div>
-                       </div>
-                    <!-- For Trending Now  -->
- 
-                    <!-- Popular Shows  -->
-                    <div id="MainContainer">
-                        <!-- <div id="insideMainContainer"> -->
-                            <div id="Heading-box">
-                                <div class="heading">Popular Shows</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
- 
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./classroom.jfif" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Classroom of the Elite
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./human lost.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Human Lost
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./your lie in april.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Your lie in April
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./yourname.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        YourName
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./mugen train.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Demon Slayer:Mugen Train
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./AOT.jfif" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Attack on titan:Season 4
-                                    </div>
-                                </div>
-                            </div>
-                        <!-- </div> -->
-                    </div>
-                    <!-- Popular Shows -->
- 
-                    <!-- Recently added  -->
-                    <div id="MainContainer">
-                        <!-- <div id="insideMainContainer"> -->
-                            <div id="Heading-box">
-                                <div class="heading">Recently added</div>
-                                <div class="viewAll">view all
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
- 
-                            <div id="Banners-container">
-                                <div class="Image-Name">
-                                    <img src="./I want to eat you pancreas.jfif" alt="Fate stye night">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        I want to eat your pancreas
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./ne zha.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Ne Zha
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./MHA movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        My Hero Acadmia:Ultimate heros
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./sprirted away movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Spirited away
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./AOT movie.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        Attack on titan:Chronicle
-                                    </div>
-                                </div>
-                                <div class="Image-Name">
-                                    <img src="./yourname.jpg" alt="">
-                                    <span class="ep">06/16</span>
-                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
-                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
-                                    <div class="content-type">
-                                        <span class="action">Action</span>
-                                        <span class="adventure">Adventure</span>
-                                    </div>
-                                    <div class="show-name">
-                                        YourName
-                                    </div>
-                                </div>
-                            </div>
-                        <!-- </div> -->
-                    </div>
- 
-            </div>
-            <!-- Recently added -->
- 
- 
-            <!-- Latest News -->
-            <div id="LatestNews">
-                <div id="LatestNewsSection">
-                    <div id="insideLatestNews">
- 
-                        <div id="Heading-box2">
-                            <div class="headingInNews">Latest News</div>
-                            <div class="viewAllInNews">view all
-                                <i class="fas fa-arrow-right"></i>
-                            </div>
-                        </div>
-                     
-                    <div id="LatestNewses">
-                        <div id="ImageOfNews" style="margin: 0;">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./boruto wide banner.jfif" alt="">
-                            <span class="name">
-                                Boruto : Next generation
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./erased wide banner.jpeg" alt="">
-                            <span class="name">
-                                Erased
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./MHA banner.jfif" alt="">
-                            <span class="name">
-                                My Hero Acadmia : The Movie
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./mugen train wide banner.jpg" alt="">
-                            <span class="name">
-                                demon slayer:Mugen train
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./classroom wide banner.jfif" alt="">
-                            <span class="name">
-                                Classroom of the Elite
-                            </span>
-                        </div>
-                        <div id="ImageOfNews">
-                            <span class="epInNews">06/16</span>
-                                <span class="watchInNews"><i class="far fa-eye"></i> 9987</span>
-                            <img src="./death note wide banner.jfif" alt="">
-                            <span class="name">
-                                Death Note
-                            </span>
-                        </div>
-                    </div>
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>The University of Hartford's main campus is located on Bloomfield Avenue. Surrounded by green space, the main campus is divided into residential and academic buildings connected by a bridge that overlooks the north branch of the Park River, known to us as Hog River.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>           
+            <div class="campus-col">
+                <img src="./newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
                 </div>
             </div>
-            <!-- Latest News -->
- 
+            <div class="campus-col">
+                <img src="./washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
         </div>
-    </div>
- 
-    </div>
-<!-- ALL SHOWS  -->
- 
- 
+    </section>
+    
+    </section>
+
+    <!--Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Pursue research at Eduford’s libraries, which include more than 3.5 million holdings. Whether your focus is on a specific discipline, interdisciplinary areas or emerging fields, our libraries offer academic resources, a maker hub, collaborative spaces and more.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>The College introduces students to philosophy and theology and challenges them to delve deeply into the arts, humanities, languages, social sciences and sciences.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Whether students pursue studies in Arabic, chemistry, government or one of hundreds of other opportunities, they are part of a rich legacy of academic excellence designed to serve them well in an ever-changing world.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="./user1.jpg" alt="">
+                <div>
+                    <p>“Eduford is home to me not because of the fancy buildings like Healy Hall, or its prestigious reputation, but rather because of the university’s care for the whole person as each of us attempts to live our lives for others.”</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="./user2.jpg" alt="">
+                <div>
+                    <p>“It’s likely that you will come to love some of the most amazing souls this campus has to offer. That love may come in the form of friendships that you know will last forever.”</p>
+                    <h3>Edward Bay</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll for our various online courses <br> Anywhere from the world</h1>
+        <a href="" class="hi-btn">CONTACT US</a>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.
+            We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> © Bilel tlijani made this</p>
+
+
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
- 
 </html>
